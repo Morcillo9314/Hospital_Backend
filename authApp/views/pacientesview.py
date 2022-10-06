@@ -2,7 +2,7 @@ from ast import Delete
 from urllib import request
 from rest_framework import status, views
 from rest_framework.response import Response
-from Repositorio_MisionTic2022.authApp.serializers import pacientesserializer
+from Hospital_backend.authApp.serializers import pacientesserializer
 from authApp.models.pacientes import Pacientes
 from authApp.serializers.pacientesserializer import Pacientesserializer
 
